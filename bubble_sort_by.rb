@@ -1,4 +1,4 @@
-def bubble(arr)
+def bubble_sort_by(arr)
   return 'Array sorted!' if arr.length == 1
 
   count = 0
@@ -13,6 +13,6 @@ def bubble(arr)
   arr
 end
 
-bubble(%w[Hi Hello Hey]) do |left, right|
+bubble_sort_by(%w[Hi Hello Hey]) do |left, right|
   left.length - right.length
 end
