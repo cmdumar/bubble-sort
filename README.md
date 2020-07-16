@@ -14,10 +14,6 @@ Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorith
 1. Ruby
 2. Rubocop (Linter)
 
-## Live Link
-
-[Live Demo (repl)](https://repl.it/@mohammadumar28/bubble-sort)
-
 ## Contributors
 
 **Muhammad Umar**
