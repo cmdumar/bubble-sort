@@ -3,16 +3,15 @@ def bubble_sort(arr)
     puts 'Array has been sorted!'
   else
     x = 0
-    until x == (arr.length - 1) do
-      for i in 1..arr.length-1
-        if arr[i-1] > arr[i]
-          arr[i-1], arr[i] = arr[i], arr[i-1]
-        end
+    until x == (arr.length - 1)
+      (1..arr.length - 1).each do |i|
+        arr[i - 1], arr[i] = arr[i], arr[i - 1] if arr[i - 1] > arr[i]
       end
       x += 1
     end
   end
-  return arr
+  print arr
+  arr
 end
 
 bubble_sort([12, 1, 4, 5, 6, 0, 11, 9])
